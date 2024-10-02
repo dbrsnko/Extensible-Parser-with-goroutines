@@ -8,17 +8,8 @@ The goal is to make the solution as extensible and
 flexible as possible, even beyond common sense. Here’s what it should be:
 
 ### 1. File Input
-Read multiple files, each containing JSON objects of the following structure, separated by **newlines** like this:
+Read multiple files, each containing JSON object of the following structure, ending with a **newline** like this:
 {"message":"test","timestamp":"2023-03-15T21:54:42.123Z"}
-
-{"message":"qwerty","timestamp":"2023-03-16T21:54:42.123Z"}
-
-{"message":"ytrewq","timestamp":"2023-03-17T21:54:42.123Z"}
-
-{"message":"asdfg","timestamp":"2023-03-18T21:54:42.123Z"}
-
-{"message":"gfdsa","timestamp":"2023-03-19T21:54:42.123Z"}
-
 
 ### 2. Parsing and Output
 Parse each line.
